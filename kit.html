@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICIAL INTERVIEW KIT</title>
+</head>
+<style>
+    .body{
+        display: block;
+    }
+    .right{
+        padding: 20px;
+        height: 500px;
+        width: 200px;
+        display: block;
+        right: 10px;
+        background-color: rgb(77, 15, 53);
+    }
+    .shape{
+        position: center;
+        display:flex;
+        background-color: red;
+        border: 3px solid green;
+    }
+    .h{
+        background-color: #9b1c31;
+        border:palegoldenrod;
+        width: 200px;
+        height: 100px;
+    }
+    .h:hover{
+        box-shadow: 10px 20px 20px;
+        padding: 5px;
+        background-color: rgb(32, 77, 116);
+    }
+    .interviewer{
+        width: 600px;
+        margin: 10px;
+        position: top;
+        border-radius: 10px;
+        border: 3px solid green;
+        background-color:green ;
+        height: 500px;
+    }
+    .candidate{
+        display: flex;
+        width: 600px;
+        margin: 10px;
+        position:top;
+        right: 150px;
+        border-radius: 10px;
+        height: 500px;
+        right: 70px;
+        border: 3px solid green;
+        background-color: #9b1c31;
+    }
+    .left{
+        display: flex;
+    }
+    .b{
+        background-color: #9b1c31;
+    }
+    .n{
+        padding: 20px;
+        background-color: #9b1c31;
+    }
+    #btn{
+    background-color: #9b1c31;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+#btn:hover{
+    padding: 20px;
+    background-color: rgb(28, 28, 134);
+    cursor: alias;
+}
+    @media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  .right{
+      display: block;
+  }
+  .left{
+      display: block;
+  }
+  .interviewer{
+      display: block;
+      height: 200px;
+      width: 500px;
+  }
+  .candidate{
+      height: 200px;
+      width: 500px;
+  }
+}
+#btn{
+    background-color: #9b1c31;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+#btn:hover{
+    padding: 20px;
+    background-color: rgb(28, 28, 134);
+    cursor: alias;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+  .interviewer{
+      height: 200px;
+      width: 300px;
+  }
+  .candidate{
+      height: 200px;
+      width: 300px;
+  }
+}
+#btn{
+    background-color: #9b1c31;
+    height: 120px;
+    width: 120px;
+    display: block;
+}
+#btn:hover{
+    padding: 10px;
+    background-color: rgb(28, 28, 134);
+    cursor: alias;
+}
+</style>
+<body>
+<div class="n">OFFICIAL INTERVIEW KIT</div>
+    <div class="shape">
+        <!-- dsnlkfcnsdlkjcn -->
+        <div class="right">
+            all folders
+            <div class="h" id="btn" onclick="program()">PROGRAM</button></div>
+        ----------
+        <div class="h" id="btn" onclick="notepad()">NOTEPAD</button></div>
+    -------- 
+    <div class="h" id="btn" onclick="can()">jgcdsvjf</div>
+    --------   
+    <div class="h">jgcdsvjf</div>
+    --------   
+        </div>
+        <div class="left">jhvdshb
+            <!-- <div class="interviewer">
+                INTERVIWER -->
+                <video autoplay="true" id="videoElement" class="interviewer">
+	
+                </video>
+                <!-- <div class="a"><canvas id="camera">bjhvjyhvgyjygjy</canvas></div> -->
+            </div><pre>INTERVIWER</pre>
+            <video autoplay="true" id="videoElement" class="candidate">
+	
+            </video>
+    </div>
+    <div class="b">
+        <!-- djhvbsjbh -->
+        <marquee>Interview  Is In Progress</marquee>
+
+    </div>
+    <script>
+        var video=document.querySelector("#videoElement");
+        console.log(video);
+        if (navigator.mediaDevices.getUserMedia) {
+          navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+            //then is compromise API used promise to get asynchronous function
+              video.srcObject = stream;
+            })
+            .catch(function (err0r) {
+              console.log("Something went wrong!");
+            });
+        }
+        </script>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programming Questions</title>
+    </head>
+    <style>
+        .program{
+            /* position: fixed; */
+            background-color: red;
+            width: 500px;
+            height: 500px;
+            display: block;
+        }
+        .canva{
+            background-color: aliceblue;  
+            /* display: block; */
+            /* overflow: scroll; */
+        }
+        #canvas{
+            height: 900px;
+            width: 1100px;
+            background-color: aliceblue;
+            border: 3px solid green;
+            scroll-behavior: auto;
+            overflow: scroll;
+            display: flex;
+            /* background: url(/images.jpg); */
+        }
+        #canvas:hover{
+            /* initial-letter: kjbkjbn; */
+            cursor: alias;
+        }
+        #text{
+            height: 500px;
+            width: 700px;
+            overflow: scroll;
+        }
+        button{
+            margin: 2px;
+            padding: 10px;
+            background-color: aqua;
+            box-shadow: 2px 5px 10px;
+        }
+        button:hover{
+            padding: 20px;
+            background-color: blueviolet;
+        }
+        .cal{
+            align-items:center ;
+            text-align: center;
+            height: 100px;
+            width: 1700px;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+        }
+        .cal li  {
+            text-decoration: none;
+            margin: 20px;
+        }
+    </style>
+    <body>
+        <div class="program">
+    <!-- iuhiuhgiuhg -->
+    <div class="canva">
+        TECHNICAL INTERVIEW
+    </div>
+    <div id="canvas"><pre>Philaland Coins Question
+    
+    
+        Problem Description 
+        
+        The problem solvers have found a new Island for coding and named it as Philaland. These smart people were given a task to make the purchase of items at the Island easier by distributing various coins with different values. 
+        
+        
+        
+        Manish has come up with a solution that if we make coins category starting from $1 till the maximum price of the item present on Island, then we can purchase any item easily. He added following example to prove his point. Let's suppose the maximum price of an item is 5$ then we can make coins of {$1, $2, $3, $4, $5} to purchase any item ranging from $1 to $5. Now Manisha, being a keen observer suggested that we could actually minimize the number of coins required and gave following distribution {$1, $2, $3}. According to him, any item can be purchased one time ranging from $1 to $5. Everyone was impressed with both of them. Your task is to help Manisha come up with the minimum number of denominations for any arbitrary max price in Philaland. 
+        
+        
+        
+        Input Format 
+        
+        First line contains an integer T denoting the number of test cases. Next T lines contains an integer N denoting the maximum price of the item present on Philaland. 
+        
+        
+        
+        Output Format 
+        
+        For each test case print a single line denoting the minimum number of denominations of coins required.
+        
+        
+        
+        Constraints 
+        
+        1<=T<=100 
+        
+        1<=N<=5000 
+        
+        
+        
+        Sample Input 1: 
+        
+        2 
+        
+        10 
+        
+        5
+        
+        
+        
+        Sample Output 1: 
+        
+        4 
+        
+        3
+        
+        
+        
+        Sample Input2: 
+        
+        3
+        
+        1
+        
+        5
+        
+        7 
+        
+        
+        
+        Sample Output2: 
+        
+        1
+        
+        3
+        
+        3 
+        
+        
+        
+        Explanation: 
+        
+        For test case 1, N=10. 
+        
+        According to Manish {$1, $2, $3,… $10} must be distributed. But as per Manisha only {$1, $2, $3, $4} coins are enough to purchase any item ranging from $1 to $10. Hence minimum is 4. Likewise denominations could also be {$1, $2, $3, $5}. Hence answer is still 4. 
+        
+        
+        
+        For test case 2, N=5. 
+        
+        According to Manish {$1, $2, $3, $4, $5} must be distributed. But as per Manisha only {$1, $2, $3} coins are enough to purchase any item ranging from $1 to $5. Hence minimum is 3. Likewise denominations could also be {$1, $2, $4}. Hence answer is still 3. 
+        
+        </pre>
+        </div>
+        <optio>PYTHON 3</optio>
+        <select>
+            <option>PYTHON 3</option>
+            <option>PYTHON 3</option>
+            <option>PYTHON 3</option>
+        </select>
+        <!-- <option> -->
+            <div class="cal">
+                FIRST TO DO APPROACH<br>
+                WHAT APPROACH YOU ARE USING WRITE IT DOWN IN STEPS
+                
+            <li><ol>step-1<input type="text">
+            </li>
+            <li>step-2<input type="text"></li>
+            <li>step-3<input type="text"></li>
+            <li>step-4<input type="text"></li>
+            <li>step-5<input type="text"></li>
+            <li>step-6<input type="text"></li>
+            <li>step-7<input type="text"></li>
+        </ol>
+            <textarea name="" id="" cols="30" rows="10">ROUGH WORK IF NEEDED</textarea>
+        <!-- </div> -->
+            <!-- <div class="test"> -->
+                <h1>TESTCASES</h1>
+                <li>TESTCASE-1</li>
+                <li>TESTCASE-2</li>
+                <li>TESTCASE-3</li>
+                <li>TESTCASE-4</li>
+                <li>TESTCASE-5</li>
+            </div>
+       
+        </option>
+        <textarea type="text" id="text"  columns="3">---------------WELCOME---------------------
+        
+        START CODING</textarea>
+        <button>RUN</button><button>RUN TEST CASES</button><button>SUBMIT</button>
+        <div class="testcases">
+            TESTCASES
+            <pre>----------------------</pre>
+        </div>
+    </body>
+    </html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICIAL INTERVIEW KIT</title>
+</head>
+<style>
+    .body{
+        /* position: static; */
+        display: block;
+    }
+    .r{
+        position:static;
+        padding: 20px;
+        height: 200px;
+        width: 100px;
+        display: block;
+        right: 10px;
+        background-color: rgb(77, 15, 53);
+    }
+    .s{
+        position: static;
+        display:flex;
+        background-color: red;
+        border: 3px solid green;
+    }
+    .p{
+        position: inherit;
+        background-color: #9b1c31;
+        border:palegoldenrod;]
+        width:50px;
+        height: 30px;
+    }
+    .h:hover{
+        box-shadow: 10px 20px 20px;
+        padding: 5px;
+        background-color: rgb(32, 77, 116);
+    }
+    .i{
+        width: 300px;
+        margin: 10px;
+        position: top;
+        border-radius: 10px;
+        border: 3px solid green;
+        background-color:green ;
+        height: 200px;
+    }
+    .c{
+        display: flex;
+        width: 300px;
+        margin: 10px;
+        position:top;
+        right: 150px;
+        border-radius: 10px;
+        height: 200px;
+        right: 70px;
+        border: 3px solid green;
+        background-color: #9b1c31;
+    }
+    .l{
+        display: flex;
+        height: 100px;
+        width: 100px;
+    }
+    .b{
+        background-color: #9b1c31;
+    }
+    .n{
+        padding: 20px;
+        background-color: #9b1c31;
+    }
+    #btn{
+    background-color: #9b1c31;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+#btn:hover{
+    padding: 20px;
+    background-color: rgb(28, 28, 134);
+    cursor: alias;
+}
+    @media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  .right{
+      display: block;
+  }
+  .left{
+      display: block;
+  }
+  .i{
+      display: block;
+      height: 100px;
+      width: 200px;
+  }
+  .c{
+      height: 200px;
+      width: 200px;
+  }
+}
+#btn{
+    background-color: #9b1c31;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+#btn:hover{
+    padding: 20px;
+    background-color: rgb(28, 28, 134);
+    cursor: alias;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+  .i{
+      height: 200px;
+      width: 300px;
+  }
+  .c{
+      height: 200px;
+      width: 300px;
+  }
+}
+#btn{
+    background-color: #9b1c31;
+    height: 120px;
+    width: 120px;
+    display: block;
+}
+#btn:hover{
+    padding: 10px;
+    background-color: rgb(28, 28, 134);
+    cursor: alias;
+}
+</style>
+<body>
+<!-- <div class="n">OFFICIAL INTERVIEW KIT</div> -->
+    <div class="s">
+        <!-- dsnlkfcnsdlkjcn -->
+        <div class="r">
+            all folders
+            <div class="p" id="b" onclick="program()">PROGRAM</button></div>
+        ----------
+        <div class="p" id="b" onclick="notepad()">NOTEPAD</button></div>
+    -------- 
+    <div class="p">jgcdsvjf</div>
+    --------   
+    <div class="p">jgcdsvjf</div>
+    --------   
+        </div>
+        <div class="l">jhvdshb
+            <div class="i">
+                INTERVIWER
+                <!-- <video autoplay="true" id="videoElemen" class="i">
+	
+                </video> -->
+                <!-- <div class="a"><canvas id="camera">bjhvjyhvgyjygjy</canvas></div> -->
+            </div><pre>INTERVIWER</pre>
+            <div class="c">CANDIDATE</div>
+            <!-- <video autoplay="true" id="videoElemen" class="c">
+	
+            </video> -->
+        </div>
+        <!-- <video autoplay="true" id="videoElement" class="interviewer">
+	
+        </video> -->
+    </div>
+    <div class="b">
+        <!-- djhvbsjbh -->
+        <marquee>Interview  Is In Progress</marquee>
+
+    </div>
+
+
+
+
+    
+<div class="top">
+    <button id="scroolup" onclick="scroll(0)">Up line 5</button>
+</div>
+    </div>
+    <script>
+        function program(){
+            var mywindow=window.open("/redirect.html",innerwidth="200", innerHeight="100")
+                // var mywindow=window.open("","","width=200","height=100");
+        }
+        function notepad(){
+            var mywindow=window.open('/notepad.html');
+        }
+
+</body>
+</html>
