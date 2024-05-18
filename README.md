@@ -1,4 +1,4 @@
-Download my new and latest interview kit.
+Download new and latest interview kit.
 [images,note,notepad.zip](https://github.com/mohdaliabbas/Interview-Kit/files/7324277/images.note.notepad.zip)
 Preview:->
 
